@@ -1,0 +1,17 @@
+input {
+	border: 1px solid $pink;
+	border-radius: 7px;
+	outline: none;
+	padding: 5px;
+	width: 250px;
+
+	@media all and (max-width: 400px) {
+		width: 150px;
+	}
+}
+
+textarea {
+	@extend input;
+	height: 200px;
+	background-color: rgba(255,204,255, 0.25);
+}

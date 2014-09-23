@@ -1,0 +1,29 @@
+button {
+	background-color: $blue;
+	color: #ffffff;
+	padding: 10px;
+	font-size: 14px;
+	border-radius: 7px;
+	border: none;
+	font-family: mad;
+	text-transform: lowercase;
+	cursor: pointer;
+}
+
+button:hover {
+	@extend button;
+	background-color: #ffffff;
+	color: $default;
+}
+
+button a {
+	@extend button;
+	color: $default;
+}
+
+button a:hover {
+	@extend button;
+	color: $purple;
+}
+
+

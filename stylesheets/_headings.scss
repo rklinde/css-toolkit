@@ -1,0 +1,26 @@
+h1 {
+	color: $green;
+	font-family: mad;
+	font-size: 28pt;
+	letter-spacing: 0px;
+	// text-transform: lowercase;
+	
+}
+
+h2 {
+	color: $blue;
+	font-size: 18pt;
+	@extend h1;
+}
+
+h3 {
+	color: $purple;
+	font-size: 14pt;
+	@extend h1;
+}
+
+h4 {
+	color: $default;
+	font-size: 12pt;
+	@extend h1;
+}

@@ -1,0 +1,51 @@
+@import '../bourbon/bourbon';
+@import 'logo';
+@import 'spacer';
+@import 'clear';
+@import 'columns';
+@import 'colors';
+@import 'fonts';
+@import 'bar';
+@import 'headings';
+@import 'button';
+@import 'swatch';
+@import 'forms';
+
+
+
+#container {
+	margin: 0 auto;
+	width: 90%;
+}
+
+body {
+	font-family: helvetica, sans-serif;
+	font-size: 12px;
+	color: $default;
+	letter-spacing: .5px;
+}
+
+a:link {
+	font-family: mad;
+	text-decoration: none;
+	font-size: 14pt;
+	color: $blue;
+}
+
+a:visited {
+	@extend a:link;
+}
+
+a:hover {
+	@extend a:link;
+	color: $purple;
+}
+
+a button {
+	@extend button;
+}
+
+a button:hover {
+	@extend button:hover;
+	color: $purple;
+}

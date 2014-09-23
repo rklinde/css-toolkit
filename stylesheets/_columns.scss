@@ -1,0 +1,25 @@
+@for $i from 1 through 5{
+	.col-#{$i}{
+		width: (100/$i) * 1%;
+		box-sizing: border-box;
+		margin-right: 20px;
+		padding: 5px 15px;
+		float: left;
+		vertical-align: top;
+	}
+}
+
+.right {
+	text-align: right;
+	float: left;
+
+	@media all and (max-width: 400px) {
+		text-align: center;
+
+	}
+}
+
+
+// .center {
+// 	padding-top: 20px;
+// }

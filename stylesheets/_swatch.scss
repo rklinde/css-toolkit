@@ -1,0 +1,43 @@
+.swatch-wrap {
+	float: left;
+}
+
+.swatch-label {
+	background-color: #ffffff;
+	text-align: center;
+	display: block;
+}
+
+
+.swatch-green {
+	background-color: $green;
+	height: 100px;
+	width: 100px;
+	margin: 5px 20px;
+	display: block;
+}
+
+.swatch-blue {
+	@extend .swatch-green;
+	background-color: $blue;
+}
+
+.swatch-purple {
+	@extend .swatch-green;
+	background-color: $purple;
+}
+
+.swatch-pink {
+	@extend .swatch-green;
+	background-color: $pink;
+}
+
+.swatch-grey {
+	@extend .swatch-green;
+	background-color: $default;
+}
+
+.swatch-orange {
+	@extend .swatch-green;
+	background-color: $orange;
+}
